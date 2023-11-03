@@ -1,0 +1,2 @@
+ПО: ChimeraX
+Ссылка на струкуру белка: https://www.rcsb.org/structure/104M
