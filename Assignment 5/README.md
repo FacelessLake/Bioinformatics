@@ -1,8 +1,8 @@
 # Информация по заданию:
-Последовательность белка: MDADVISFEASRGDLVVLDAIHDARFETEAGPGVYDIHSPRIPSEKEIEDRIYEILDKIDVKKVWINPDCGLKTRGNDETWPSLEHLVAAAKAVRARLDK
-Программы-предсказатели: AlphaFold2, OmegaFold
-Программа-выравниватель: ProBiS
-Приложение для визуализации: ChimeraX
+Последовательность белка: MDADVISFEASRGDLVVLDAIHDARFETEAGPGVYDIHSPRIPSEKEIEDRIYEILDKIDVKKVWINPDCGLKTRGNDETWPSLEHLVAAAKAVRARLDK  
+Программы-предсказатели: AlphaFold2, OmegaFold  
+Программа-выравниватель: ProBiS  
+Приложение для визуализации: ChimeraX  
 
 # Заметки:
 ProBiS никак не мог распознать результаты работы OmegaFold, сетуя на то, что отсутствует структура белка. Для корректной работы пришлось сравнить с .pdb от AlphaFold2. Оказалось, что OmegaFold никак не размечает начало и конец модели, потому пришлось дописать их вручную, итоговый файл: omegafold_modified.pdb.
